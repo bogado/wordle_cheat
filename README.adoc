@@ -1,0 +1,12 @@
+= Cheat for wordle: C++ implementation.
+Victor Bogado da Silva Lins <victor@bogado.net>
+
+== Filter like program to match words accorfding to wordle tips.
+
+The program accepts a file with a list of words and print out all the words that match all the specified tips.
+
+All black letters are placed in a single parameter '-b'.
+All other tips get a '-T' parameter with '.' where black letters show.
+An uppercase letters for the [.green]##green## tips.
+And lowercases letters for the [.YELLOW]##yellow## tips.
+So a tip for "AU[.GREEN]##D##[.YELLOW]##I##O" would be coded as "-bauo -T..Di.".
